@@ -1,0 +1,159 @@
+/* App.css */
+
+body {
+    margin: 0;
+    font-weight: bold;
+    background-color: #f4f5f8;
+}
+
+.app-container {
+    background-color: #f4f5f8;
+    height: 100vh;
+}
+
+.navbar {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.display-btn {
+    background-color: transparent;
+    border: 2px solid rgb(192, 189, 189);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    margin-left: 25px;
+}
+
+.dropdown-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #f4f5f8;
+    border: 2px solid rgb(192, 189, 189);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 190px;
+    margin-left: 30px;
+    padding-left: 15px;
+    width: 250px;
+    height: 150px;
+}
+
+.icon {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.dropdown-content p {
+    margin-bottom: 0;
+}
+
+.grouping-section {
+    margin-top: 14px;
+}
+
+.ordering-section {
+    margin-top: 18px;
+}
+
+.user-section {
+    margin-top: 16px;
+}
+
+select {
+    margin-left: 65px;
+}
+
+.ordering-section select {
+    margin-left: 69px;
+}
+
+.user-section select {
+    margin-left: 102px;
+}
+
+#groupingSelect {
+    width: 100px;
+    border: 2px solid rgb(192, 189, 189);
+    border-radius: 5px;
+    padding: 2px;
+}
+
+#orderingSelect {
+    width: 100px;
+    border: 2px solid rgb(192, 189, 189);
+    border-radius: 5px;
+    padding: 2px;
+}
+
+#userSelect {
+    width: 100px;
+    border: 2px solid rgb(192, 189, 189);
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.body-content {
+    display: flex;
+    flex: 1;
+    padding-left: 45px;
+}
+
+.kanban-board {
+    display: flex;
+    gap: 20px;
+    flex: 1;
+}
+
+.kanban-column {
+    flex: 1;
+    padding: 10px;
+}
+
+.with-margin {
+    margin-left: 80px;
+}
+
+.status-btn {
+    border: 2px solid rgb(192, 189, 189);
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 60px;
+}
+
+.status-btn img {
+    margin-left: 15px;
+}
+
+.user-btn img {
+    margin-left: 25px;
+}
+
+.priority-btn img {
+    margin-left: 13px;
+}
+
+.user-btn {
+    border: 2px solid rgb(192, 189, 189);
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 97px;
+}
+
+.priority-btn {
+    border: 2px solid rgb(192, 189, 189);
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 63px;
+}
